@@ -18,7 +18,8 @@ p, ul, ol {
 }
 
 h1, h2, h3,
-p, ul, ol {
+p, ul, ol,
+.my-fotorama {
   max-width: 700px;
   margin-right: auto;
   margin-left: auto;
@@ -30,6 +31,7 @@ p + ul, p + ol {
 }
 
 .fotorama {
+  max-width: 99999px;
   margin-right: -10px;
   margin-left: -10px;
   margin-bottom: 1em;
@@ -40,7 +42,7 @@ p + .fotorama, p + .image {
 }
 
 .image {
-  max-width: 9999px;
+  max-width: 99999px;
   text-align: center;
   position: static;
 }
